@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>S172D</title>
+
+<!-- Google Font -->
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+<!-- Particles background -->
+<script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+
+body{
+font-family:'Poppins',sans-serif;
+background:#0f0f0f;
+color:white;
+overflow-x:hidden;
+}
+
+#particles-js{
+position:fixed;
+width:100%;
+height:100%;
+z-index:-1;
+top:0;
+left:0;
+}
+
+header{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:20px 40px;
+background:rgba(17,17,17,0.85);
+backdrop-filter:blur(6px);
+position:sticky;
+top:0;
+z-index:10;
+}
+
+header h1{
+color:#6aff8e;
+}
+
+nav a{
+color:white;
+margin-left:20px;
+text-decoration:none;
+font-weight:500;
+}
+
+nav a:hover{
+color:#6aff8e;
+}
+
+.hero{
+padding:120px 20px;
+text-align:center;
+animation:fadeUp 1.2s ease;
+}
+
+.hero h2{
+font-size:48px;
+margin-bottom:10px;
+}
+
+.hero p{
+opacity:0.8;
+margin-bottom:15px;
+}
+
+.subcount{
+font-size:20px;
+margin-top:10px;
+color:#6aff8e;
+}
+
+.button{
+background:#6aff8e;
+color:black;
+padding:12px 22px;
+border-radius:8px;
+text-decoration:none;
+font-weight:600;
+display:inline-block;
+margin-top:20px;
+transition:0.25s;
+}
+
+.button:hover{
+transform:scale(1.05);
+}
+
+.section{
+padding:80px 20px;
+text-align:center;
+animation:fadeUp 1.2s ease;
+}
+
+.section h2{
+margin-bottom:35px;
+font-size:30px;
+}
+
+.grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(240px,1fr));
+gap:25px;
+max-width:1100px;
+margin:auto;
+}
+
+.card{
+background:#1a1a1a;
+padding:18px;
+border-radius:12px;
+transition:0.35s;
+}
+
+.card:hover{
+transform:translateY(-8px);
+box-shadow:0 10px 35px rgba(0,0,0,0.6);
+}
+
+.card img{
+width:100%;
+border-radius:8px;
+margin-bottom:10px;
+}
+
+iframe{
+width:100%;
+height:160px;
+border:none;
+border-radius:10px;
+}
+
+footer{
+margin-top:60px;
+padding:30px;
+text-align:center;
+background:#111;
+}
+
+@keyframes fadeUp{
+from{opacity:0;transform:translateY(40px)}
+to{opacity:1;transform:translateY(0)}
+}
+
+</style>
+</head>
+
+<body>
+
+<div id="particles-js"></div>
+
+<header>
+<h1>S172D</h1>
+
+<nav>
+<a href="#videos">Videos</a>
+<a href="#clothes">Clothing</a>
+<a href="#roblox">Roblox</a>
+</nav>
+</header>
+
+<section class="hero">
+<h2>S172D YouTube Channel</h2>
+<p>Roblox Content • Tutorials • Gameplay</p>
+
+<div class="subcount" id="subCount">Subscribers: Loading...</div>
+
+<a class="button" href="https://youtube.com/@S172D" target="_blank">Visit Channel</a>
+<br>
+<a class="button" href="https://discord.gg/gaesM9Cpmr" target="_blank">Join My Discord</a>
+</section>
+
+<section id="videos" class="section">
+<h2>Latest Videos</h2>
+
+<div class="grid">
+
+<iframe src="https://www.youtube.com/embed?listType=user_uploads&list=S172D"></iframe>
+<iframe src="https://www.youtube.com/embed?listType=user_uploads&list=S172D"></iframe>
+<iframe src="https://www.youtube.com/embed?listType=user_uploads&list=S172D"></iframe>
+<iframe src="https://www.youtube.com/embed?listType=user_uploads&list=S172D"></iframe>
+<iframe src="https://www.youtube.com/embed?listType=user_uploads&list=S172D"></iframe>
+<iframe src="https://www.youtube.com/embed?listType=user_uploads&list=S172D"></iframe>
+
+</div>
+
+</section>
+
+<section id="clothes" class="section">
+<h2>S172D Roblox Clothing</h2>
+
+<div class="grid">
+
+<div class="card">
+<img src="https://tr.rbxcdn.com/78563247876906/420/420/Shirt/Png">
+<h3>Purple Hoodie</h3>
+<a class="button" href="https://www.roblox.com/catalog/78563247876906/S172D-Purple-Hoodie" target="_blank">View</a>
+</div>
+
+<div class="card">
+<img src="https://tr.rbxcdn.com/103306912668067/420/420/Shirt/Png">
+<h3>S172D Hoodie</h3>
+<a class="button" href="https://www.roblox.com/catalog/103306912668067/S172D-Hoodie" target="_blank">View</a>
+</div>
+
+<div class="card">
+<img src="https://tr.rbxcdn.com/113921019702134/420/420/Shirt/Png">
+<h3>Blue Hoodie</h3>
+<a class="button" href="https://www.roblox.com/catalog/113921019702134/S172D-Blue-hoodie" target="_blank">View</a>
+</div>
+
+<div class="card">
+<img src="https://tr.rbxcdn.com/124188886242368/420/420/Pants/Png">
+<h3>Blue Pants</h3>
+<a class="button" href="https://www.roblox.com/catalog/124188886242368/S172D-blue-pants" target="_blank">View</a>
+</div>
+
+<div class="card">
+<img src="https://tr.rbxcdn.com/90846591571110/420/420/Pants/Png">
+<h3>Black Pants</h3>
+<a class="button" href="https://www.roblox.com/catalog/90846591571110/S172D-Black-Pants" target="_blank">View</a>
+</div>
+
+</div>
+</section>
+
+<section id="roblox" class="section">
+<h2>My Roblox</h2>
+
+<div class="grid">
+
+<div class="card">
+<h3>Roblox Profile</h3>
+<a class="button" href="https://www.roblox.com/users/profile" target="_blank">View Profile</a>
+</div>
+
+<div class="card">
+<h3>DoubelDev Studios</h3>
+<a class="button" href="https://www.roblox.com/groups" target="_blank">View Group</a>
+</div>
+
+</div>
+</section>
+
+<footer>
+<p>© 2026 S172D</p>
+<p>Business Inquiries: <a href="mailto:works172d.alt@gmail.com" style="color:#6aff8e;text-decoration:none">works172d.alt@gmail.com</a></p>
+</footer>
+
+<script>
+
+/* PARTICLES BACKGROUND */
+particlesJS("particles-js",{
+  particles:{
+    number:{value:70},
+    size:{value:3},
+    color:{value:"#6aff8e"},
+    line_linked:{enable:true,color:"#6aff8e"},
+    move:{speed:2}
+  }
+});
+
+/* SUBSCRIBER COUNTER */
+const API_KEY="PUT_API_KEY_HERE";
+const CHANNEL_ID="PUT_CHANNEL_ID_HERE";
+
+async function getSubs(){
+if(API_KEY.includes("PUT_")) return
+
+const url=`https://www.googleapis.com/youtube/v3/channels?part=statistics&id=${CHANNEL_ID}&key=${API_KEY}`;
+
+const res=await fetch(url);
+const data=await res.json();
+
+const subs=data.items[0].statistics.subscriberCount;
+
+document.getElementById("subCount").innerText="Subscribers: "+Number(subs).toLocaleString();
+}
+
+getSubs();
+
+</script>
+
+</body>
+</html>
